@@ -1,0 +1,211 @@
+:root{
+    --dark: rgb(0,0,0);
+    --primary: #f2f2e9;
+    --secondary: #254b59;
+    --tertiary: #7b9ea6;
+    --complimentary: #8c593b;
+    --complimentary2: #593f2f;
+
+}
+
+*{    
+    color: var(--dark);
+}
+
+html{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: var(--primary);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    background-color: var(--secondary);
+    height: 15vh;  
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding-top: 3rem;
+    z-index: 10;
+}
+
+.hero{
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#input-field{
+    top: 160px;
+    width: 33%;
+    display: flex;
+    flex: 0 0 100%;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 35%;
+    top: 20%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+#searchPrompt {
+    text-align: center;
+    flex: 0 0 100%;
+}
+
+#searchBar {
+    border: 1px solid var(--dark);
+    background-color: var(--tertiary);
+    flex: 0 0 50%;
+}
+
+#submitButton {
+
+    height: 47px;
+    text-align: center;
+    padding: 1%;
+}
+#submitButton:hover {
+    background-color: var(--secondary);
+    color: var(--tertiary);
+
+}
+
+i{
+    font-size: 200%;
+    padding: 1rem;
+    position: relative;
+    bottom: 12px;
+    color: var(--primary);
+}
+
+h1{
+    font-size: 3.5rem;
+    margin: 0;
+    z-index: 20;
+    padding-bottom: 1rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+li{
+    list-style-type: none;
+}
+
+#searchPrompt {
+    text-align: center;
+    flex: 0 0 100%;
+}
+
+#searchBar {
+    border: 1px solid var(--dark);
+    flex: 0 0 50%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+#submitButton {
+    height: 40px;
+    width: 70px;
+    text-align: start;
+    font-weight: bold;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+.hidden{
+    display:none;
+}
+
+
+.custom-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    margin: 2rem;
+    min-height: 6rem;
+    flex: 1 1 96%;
+    width: 96%;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);   
+}
+
+.btn{
+    background: var(--tertiary);
+    font-weight: bold;
+    min-height: 3rem;
+    width: 8rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.custom-button:hover {
+    background-color: var(--secondary);
+}
+
+
+.card-img-top{
+    max-height: 25rem;  
+    max-width: 10rem;  
+}
+
+.card{
+    margin:0;
+    align-content: space-between;  
+    flex-wrap: wrap;  
+    
+}
+
+#custom-format{    
+    justify-content: space-between;
+}
+
+#park-list{
+    display: flex;
+    flex-wrap: wrap;    
+    width: auto;   
+    padding: 1rem;
+    flex: 1 0 96%; 
+}
+
+footer{
+    display: flex;
+    justify-content: center;    
+    font-size: 1.5rem;
+    width: 20%;
+    margin: 2rem auto;
+    border-bottom: 3px solid var(--complimentary);
+}
+
+a{
+    color: whitesmoke;
+    display: flex;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: larger;
+    color: var(--complimentary2);
+}
