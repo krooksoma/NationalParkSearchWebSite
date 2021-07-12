@@ -1,7 +1,7 @@
 # ParkSearchWebSite
 Webpage to search for parks in a state, city or by park name.
 
-Project built with Luis Cartaya help.
+Project built with Luis Cartaya colaboration.
 github: https://github.com/cartaya1
 
 You can get information on the activities related to the selected park and also weather information!
