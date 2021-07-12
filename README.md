@@ -11,4 +11,4 @@ Repository link:  https://github.com/krooksoma/NationalParkSearchWebSite
 
 
 
-![Alt Text] src('./assets/img/screenshot.png')
+![] ('assets/img/Screenshot.png')
