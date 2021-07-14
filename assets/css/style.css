@@ -173,14 +173,20 @@ li{
 }
 
 .card{
+    display: flex;
     margin:0;
     align-content: space-between;  
     flex-wrap: wrap;  
-    
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    width: 96%;    
 }
+
+
+
 
 #custom-format{    
     justify-content: space-between;
+    display: flex;
 }
 
 #park-list{
@@ -192,6 +198,7 @@ li{
 }
 
 footer{
+    
     display: flex;
     justify-content: center;    
     font-size: 1.5rem;
@@ -201,7 +208,7 @@ footer{
 }
 
 a{
-    color: whitesmoke;
+    color: black;
     display: flex;
     text-decoration: none;
 }
@@ -209,4 +216,11 @@ a{
 a:hover{
     font-size: larger;
     color: var(--complimentary2);
+}
+
+.dropdown-trigger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 120%;
 }
