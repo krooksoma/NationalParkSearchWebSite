@@ -93,10 +93,16 @@ $(document).ready(function () {
 
     // display data acquired from API
     function displayData(park) {
+        console.log(typeof park);
 
+        if(typeof park == 'object'){
         parkName = park.name;
         parkCity = park.addresses[0].city;
+        }
 
+        parkName = park;
+        parkCity = park;
+ 
         let parkList = $("#park-list");
         // create div for the column and attach to the main div container
 
@@ -235,7 +241,7 @@ $(document).ready(function () {
         let newItem = JSON.parse(localStorage.getItem("savedCity"));
         
         console.log(newItem);
-        console.log(typeof newItem);
+        // console.log(typeof newItem);
         if(localStorage.getItem("savedCity") != null){
             for (let i = 0; i < newItem.length; i++){
                 let dropdownList = $("<li>");
@@ -260,6 +266,7 @@ $(document).ready(function () {
     $(document).on('click', '.list-item', function(event){
         event.preventDefault();
         let passedData = event.target.innerText;
+        console.log(passedData);
         
         // passing data to function to retrieve park info
         displayData(passedData);
