@@ -98,11 +98,11 @@ $(document).ready(function () {
         if(typeof park == 'object'){
         parkName = park.name;
         parkCity = park.addresses[0].city;
-        }
-
+        }else{
         parkName = park;
         parkCity = park;
- 
+        }
+        
         let parkList = $("#park-list");
         // create div for the column and attach to the main div container
 
