@@ -22,10 +22,11 @@
     No installation is necessary for this application.
 
 ## Usage info
-    TO use simply type in the city, or state where you want to look for a national park and hit submit..
+    To use simply type in the city, or state where you want to look for a national park and hit submit..
 
 ## Contribution
-    contributions are welcome upon request. Feel free to git clone this repo if you like. .
+    This project was built with Luis Cartaya collaboration. [Luis' Repo](https://github.com/cartaya1)
+    Contributions are welcome upon request. Feel free to git clone this repo if you like. .
 
 ## Test Instructions
     undefined.    
