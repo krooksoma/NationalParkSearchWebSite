@@ -4,14 +4,14 @@
 
 ## Table of Contents
     
- [Description](#description)
- [Installation](#installation-instructions)
- [Usage Info](#usage-info)
- [Contribution](#contribution)
- [Testing Instructions](#test-instructions)
- [License](#license)
- [Questions](#questions)
- [Tools and Technologies](#tools-and-technologies)
+ * [Description](#description)
+ * [Installation](#installation-instructions)
+ * [Usage Info](#usage-info)
+ * [Contribution](#contribution)
+ * [Testing Instructions](#test-instructions)
+ * [License](#license)
+ * [Questions](#questions)
+ * [Tools and Technologies](#tools-and-technologies)
     
     
 ![Screenshot](https://user-images.githubusercontent.com/49839357/125367651-8bf16100-e346-11eb-8e39-a7b145fd0310.png) 
@@ -28,6 +28,8 @@
 * CSS
 * JavaScript
 * Materialize UI
+* National Park Service API
+* Weather One API
 
 ## Installation Instructions
     No installation is necessary for this application.
