@@ -8,6 +8,7 @@
  [Testing Instructions](#test-instructions)
  [License](#license)
  [Questions](#questions)
+ [Tools and Technologies](#tools-and-technologies)
     
     
 ![Screenshot](https://user-images.githubusercontent.com/49839357/125367651-8bf16100-e346-11eb-8e39-a7b145fd0310.png) 
@@ -17,6 +18,13 @@
     to search the national parks that are on certain location. After inserting a name to be 
     searched for the user is able to see all national parks within that location and the 
     activities pertaining that location. There is also weather data being displayed for the next 5 days.
+    
+## Tools and Technologies
+
+* HTML
+* CSS
+* JavaScript
+* Materialize UI
 
 ## Installation Instructions
     No installation is necessary for this application.
@@ -37,7 +45,8 @@
 
 ## Questions
     For questions please refer to 
-[My Repo](https://github.com/krooksoma)  
+
+   [LinkedIn](https://www.linkedin.com/in/romulo-goncalves-45602539/)   
     or
     romulojusto@gmail.com
     
