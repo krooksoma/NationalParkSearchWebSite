@@ -1,16 +1,41 @@
-# ParkSearchWebSite
-Webpage to search for parks in a state, city or by park name.
+# National Park Search
+## Table of Contents
+    
+ [Description](#description)
+ [Installation](#installation-instructions)
+ [Usage Info](#usage-info)
+ [Contribution](#contribution)
+ [Testing Instructions](#test-instructions)
+ [License](#license)
+ [Questions](#questions)
+    
+    
+![Screenshot](https://user-images.githubusercontent.com/49839357/125367651-8bf16100-e346-11eb-8e39-a7b145fd0310.png) 
 
-Project built with Luis Cartaya colaboration.
-github: https://github.com/cartaya1
+## Description
+    An application developed to auxiliate people passionate about national parks to be able
+    to search the national parks that are on certain location. After inserting a name to be 
+    searched for the user is able to see all national parks within that location and the 
+    activities pertaining that location. There is also weather data being displayed for the next 5 days.
 
-You can get information on the activities related to the selected park and also weather information!
+## Installation Instructions
+    No installation is necessary for this application.
 
-Deployed page on git hub: https://krooksoma.github.io/NationalParkSearchWebSite/
+## Usage info
+    TO use simply type in the city, or state where you want to look for a national park and hit submit..
 
+## Contribution
+    contributions are welcome upon request. Feel free to git clone this repo if you like. .
 
-Repository link:  https://github.com/krooksoma/NationalParkSearchWebSite
+## Test Instructions
+    undefined.    
 
+## License
+    This project is covered under MIT license.
 
-
-![Screenshot](https://user-images.githubusercontent.com/49839357/125367651-8bf16100-e346-11eb-8e39-a7b145fd0310.png)
+## Questions
+    For questions please refer to 
+    ![link](https://github.comundefined)  
+    or
+    romulojusto@gmail.com
+    
